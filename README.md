@@ -5,7 +5,9 @@ Deep Learning Study 기록물 <br>
 
 ## 1일차 
 > 기본적인 Machine Learning의 용어와 개념 정리
-***
+
+<br>
+
 ### ML(Machine Learning)의 용어와 개념 설명
 
 > Explicit programming?
