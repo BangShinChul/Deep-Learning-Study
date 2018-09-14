@@ -1,6 +1,7 @@
 # Deep-Learning-Study
 Deep Learning Study 기록물 <br>
-참고 : https://hunkim.github.io/ml/
+참고 : https://hunkim.github.io/ml/ <br>
+*공부하며 끄적끄적 하는거니 틀린것이 굉장히 많을 수도 있습니다. 틀린것은 말씀해주신다면 바로 수정하도록 하겠습니다.
 
 
 ## 1일차 
@@ -32,3 +33,38 @@ Deep Learning Study 기록물 <br>
 - 이미 특징과 답이 정해져있는 데이터
 - Supervised Learning을 하기 위해서 필요한 Data Set
 
+<br>
+
+> Types of Supervised Learning : Training Data Set을 가지고 학습을 하는 방법의 종류
+- Regression(회귀) : 주어진 Data set 안에서 어떠한 조건과 결과를 학습한 후 이것을 그래프로 만드는데 이 작업이 데이터를 반복적으로 관찰하는 작업이다. 그러면 결과값들이 패턴을 가지면서 그래프를 그리는데 이것을 회귀 그래프라 한다. 이 회귀 그래프 안에서 오차값을 줄여 어떠한 조건에서 결과값을 추출해서 반환해 주는 작업을 Regression(회귀)라고 한다. 
+<br>
+예 ) 학습 시간에 따른 시험점수 Training Data Set이 아래와 같다고하고 이 데이터로 학습을 했을 때 <br>
+<table>
+ <tr>
+  <th>X(학습시간)</th><th>Y(시험점수)</th>
+ </tr>
+ <tr>
+  <td>10</td><td>90</td>
+ </tr>
+ <tr>
+  <td>9</td><td>80</td>
+ </tr>
+ <tr>
+  <td>3</td><td>50</td>
+ </tr>
+ <tr>
+  <td>2</td><td>30</td>
+ </tr>
+</table>
+<br>
+여기에서 예측할 수 있는 시험점수의 유효범위는 0~100점 사이이다.
+이 데이터를 가지고 학습을 시키면 Regression Model 기반의 회귀 그래프가 만들어진다.
+예를 들어 어떤 학생이 7시간 공부했을 때 어떤 시험점수를 받을 수 있을까 예측해보면
+만들어진 회귀 그래프 안에서 최대한 오차를 줄여서
+x=7 일때 y=65이다 라는 예측을 하는 것이다.
+
+<br>
+
+- Binary Classification(이진분류) : 
+
+- Multi-label Classification(다중분류) : 
