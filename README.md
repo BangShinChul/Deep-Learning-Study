@@ -35,13 +35,13 @@ Deep Learning Study 기록물 <br>
 
 <br>
 
-> Types of Supervised Learning : Training Data Set을 가지고 학습을 하는 방법의 종류
-- Regression(회귀) : 주어진 Data set 안에서 어떠한 조건과 결과를 학습한 후 이것을 그래프로 만드는데 이 작업이 데이터를 반복적으로 관찰하는 작업이다. 그러면 결과값들이 패턴을 가지면서 그래프를 그리는데 이것을 회귀 그래프라 한다. 이 회귀 그래프 안에서 오차값을 줄여 어떠한 조건에서 결과값을 추출해서 반환해 주는 작업을 Regression(회귀)라고 한다. 
+<strong>Types of Supervised Learning : Training Data Set을 가지고 학습을 하는 방법의 종류</strong>
+- Regression(회귀) : 주어진 Data set 안에서 어떠한 조건과 결과를 학습한 후 이것을 그래프로 만드는데 이 작업이 데이터를 반복적으로 관찰하는 작업이다. 그러면 결과값들이 패턴을 가지면서 그래프를 그리는데 이것을 회귀 그래프라 한다. 이 회귀 그래프 안에서 오차값을 줄여 어떠한 조건에서 결과값을 추출해서 반환해 주는 방법을 Regression(회귀)라고 한다. 
 <br>
-예 ) 학습 시간에 따른 시험점수 Training Data Set이 아래와 같다고하고 이 데이터로 학습을 했을 때 <br>
+예 ) 공부 시간에 따른 시험점수 Training Data Set이 아래와 같다고하고 이 데이터로 학습을 했을 때 <br>
 <table>
  <tr>
-  <th>X(학습시간)</th><th>Y(시험점수)</th>
+  <th>X(공부시간)</th><th>Y(시험점수)</th>
  </tr>
  <tr>
   <td>10</td><td>90</td>
@@ -64,6 +64,11 @@ x=7 일때 y=65이다 라는 예측을 하는 것이다.<br>
 
 <br>
 
-- Binary Classification(이진분류) : 
+- Binary Classification(이진분류) : 위의 Regression과는 다르게 어떠한 Data Set에 대해서 학습한 후 결과Y가 2가지 분류로 나누는 방법이다.<br>
+*예 ) 공부시간에 따른 시험 합격률 Data Set을 학습하여 공부시간을 던져줬을 때 시험에 합격할 수 있는지 없는지 2가지 종류(Pass or Non-pass)로 결과를 넘겨준다.
 
-- Multi-label Classification(다중분류) : 
+<br>
+
+- Multi-label Classification(다중분류) : Binary Classification과 비슷하지만 이진으로 분류하지 않고 결과를 여러가지 종류로 나누는 방법이다.<br>
+*예 ) 공부시간에 따른 시험등급 Data Set을 학습하여 공부시간을 던져줬을 때 어떤 시험등급을 받을지(수,우,미,양,가) 결과를 넘겨준다.
+
