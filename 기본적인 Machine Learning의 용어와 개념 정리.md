@@ -1,7 +1,6 @@
 
 
 ## 기본적인 Machine Learning의 용어와 개념 정리
-***
 
 <br>
 
