@@ -11,4 +11,26 @@ No matching distribution found for tensorflow
 ```
 <br>
 라는 에러를 뱉습니다..
-<strong></strong>
+
+<br>
+하지만 우리에게는 docker가 있습니다!!
+
+<br>
+docker를 통해 tensorflow를 설치하는 방법은 아래와 같습니다.
+
+<br>
+참고: https://www.tensorflow.org/install/?hl=ko
+
+```
+$ docker pull tensorflow/tensorflow                  # docker hub에서 tensorflow의 latest image를 pull
+$ docker run -it -p 8888:8888 tensorflow/tensorflow  # 로컬호스트의 8888번 포트로 tensorflow 이미지를 run (Jupyter notebook server)
+```
+
+<br>
+자 이제 브라우저를 열어 localhost:8888으로 접속하면..<br>
+아래와 같이 tensorflow이미지의 Jupyter notebook server 화면이 보입니다!<br>
+<a target="_black" href="http://cyan91.tistory.com/7">Jupyter notebook server란?</a>
+
+<br>
+![2018-12-07 1 54 20](https://user-images.githubusercontent.com/26675063/49628490-b0b32880-fa27-11e8-9ec7-0a4cd1b401aa.png)
+
