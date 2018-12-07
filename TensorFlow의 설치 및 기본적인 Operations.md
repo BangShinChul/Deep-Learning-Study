@@ -1,5 +1,5 @@
 ## TensorFlow의 설치 및 기본적인 Operations.md
-> <a href="https://www.youtube.com/watch?v=-57Ne86Ia8w&index=3&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm">참고</a>
+> <a href="https://www.youtube.com/watch?v=-57Ne86Ia8w&index=3&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm">참고 강의</a>
 
 <br>
 윈도우는 python 3.5 버전 (64bit) 에서만 다운로드 가능하다고 합니다..
