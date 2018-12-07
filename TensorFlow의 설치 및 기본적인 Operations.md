@@ -27,10 +27,16 @@ $ docker run -it -p 8888:8888 tensorflow/tensorflow  # 로컬호스트의 8888�
 ```
 
 <br>
-자 이제 브라우저를 열어 localhost:8888으로 접속하면..<br>
-아래와 같이 tensorflow이미지의 Jupyter notebook server 화면이 보입니다!<br>
+자 이제 브라우저를 열어 localhost:8888으로 접속하면..
+
+<br>
+아래와 같이 tensorflow이미지의 Jupyter notebook server 화면이 보입니다!
+
+<br>
+
 <a target="_black" href="http://cyan91.tistory.com/7">Jupyter notebook server란?</a>
 
 <br>
+
 ![2018-12-07 1 54 20](https://user-images.githubusercontent.com/26675063/49628490-b0b32880-fa27-11e8-9ec7-0a4cd1b401aa.png)
 
